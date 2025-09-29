@@ -1,13 +1,6 @@
 # Extended Utility Types
 
-A library with over 100 utility types to empower TypeScript development.
-
-## Install
-
-```sh
-npm i -D extended-utility-types
-# Requires TypeScript >= 4.1
-```
+A collection with over 100 utility types to empower TypeScript development.
 
 ## Types
 
