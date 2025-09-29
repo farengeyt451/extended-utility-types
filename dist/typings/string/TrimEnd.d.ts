@@ -1,0 +1,11 @@
+import type { Whitespace } from '../';
+/**
+ * Removes whitespace from the end of `S`.
+ *
+ * @example
+ * ```ts
+ * type T0 = TrimEnd<'   Hello   '>;
+ * //	^ = type T0 = '   Hello'
+ * ```
+ */
+export declare type TrimEnd<S extends string> = S extends `${infer T}${Whitespace}` ? TrimEnd<T> : S;
