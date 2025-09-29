@@ -1,31 +1,8 @@
 {
-	"name": "extended-utility-types",
-	"version": "2.1.0",
-	"description": "A library of utility types for TypeScript.",
-	"main": "dist/index.js",
-	"typings": "dist/typings/index.d.ts",
-	"scripts": {
-		"prepublishOnly": "npm run build && npm run update",
-		"update": "ts-node update-readme.ts",
-		"build": "rimraf dist && tsc -b"
-	},
-	"files": [
-		"dist"
-	],
-	"keywords": [
-		"ts",
-		"typescript",
-		"types",
-		"utility",
-		"utility types"
-	],
-	"author": "Bread <developernamedbread@gmail.com>",
-	"license": " BSD-3-Clause-Clear",
-	"devDependencies": {
-		"@types/node": "^16.3.1",
-		"husky": "^7.0.1",
-		"readdirp": "^3.6.0",
-		"tslib": "^2.3.0",
-		"typescript": "^4.3.5"
-	}
+  "name": "extended-utility-types",
+  "version": "1.0.0",
+  "description": "A collection with over 100 utility types to empower TypeScript development.",
+  "main": "typings\\index.d.ts",
+  "author": "Bread <developernamedbread@gmail.com>",
+  "license": " BSD-3-Clause-Clear"
 }
